@@ -52,11 +52,11 @@ int main() {
                 }
             } else {
                 // output
-                std::cout << "Your package is too weight." << std::endl;
+                std::cout << "Your package is too heavy." << std::endl;
             }
         } else {
             // output
-            std::cout << "Your package is too weight and too large."
+            std::cout << "Your package is too heavy and too large."
             << std::endl;
         }
     } catch (std::invalid_argument) {
